@@ -17,7 +17,9 @@
 // Package strom defines interfaces and utilities for Server-Sent Events (SSE).
 package storm
 
-import "context"
+import (
+	"context"
+)
 
 type EventSource interface {
 	Stream(ctx context.Context) error
