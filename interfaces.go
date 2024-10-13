@@ -17,10 +17,5 @@
 // Package kinetix defines interfaces and utilities for Server-Sent Events (SSE).
 package kinetix
 
-import (
-	"context"
-)
-
-type EventSource interface {
-	Stream(ctx context.Context) error
+type SSE interface {
 }
